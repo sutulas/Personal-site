@@ -1,0 +1,54 @@
+﻿Seamus Sutula
+sutulas@bc.edu | +1 (774) 219 9251 
+41 Oak Crest Dr ● North Attleboro, MA 02760
+EDUCATION
+________________
+
+
+Boston College, Morrissey College of Arts and Science                                                             Chestnut Hill, MA
+B.S, Computer Science                                                                                     Graduation: May 2025
+Minor: Philosophy
+Overall GPA: 3.85
+Relevant Coursework: Data Structures and Algorithms, Deep Learning, Human-AI Interaction, Robotics, Natural Language Processing
+
+
+WORK EXPERIENCE
+________________
+
+
+Boston College, Department of Computer Science                                                                     Chestnut Hill, MA
+Teaching Assistant                                                                                     January 2024 - present
+* Instructed students in Python programming fundamentals through weekly office hours and classroom sessions.
+* Developed and evaluated assignments for a class of 60+ students, ensuring understanding of course material.
+* Implemented data analysis and machine learning techniques on student experience data to optimize lecture topics and assignments.
+Zoominfo                                                                                                                 Waltham, MA
+Software Engineering Intern                                                                          June 2024 - August 2024
+* Optimized count estimation processes through in-depth Solr query data analysis and advanced data estimation techniques, leveraging Python, Solr, Snowflake, and Apache DataSketches frameworks.
+* Developed and recommended an innovative solution that reduced query latency by up to 70%, slated for production implementation.
+* Gained comprehensive insight into the software development lifecycle through proactive engagement with senior management, focusing on project management, resource allocation, and interdepartmental collaboration.
+The GBCS Group                                                                                                                  Remote
+Backend Developer Intern                                                                           May 2023 - August 2023
+* Demonstrated proficiency in rapidly acquiring and applying software development tools, including JavaScript, Node.js, Firebase, and Postman.
+* Architected and implemented an API framework to facilitate efficient data retrieval from backend systems and seamless frontend communication.
+
+
+PROJECTS AND LEADERSHIP EXPERIENCE
+________________
+
+
+Decodables                                                                                
+Technical Co-Founder and Lead Engineer                                                                       October 2024 - present
+* Collaborated with university peers and alumni to develop a scalable, user-friendly website offering personalized reading experiences for young low-level readers.
+* Spearheaded the creation of a custom prompt-engineering pipeline for integration with multiple large language models.
+* Designed and implemented an interactive front-end interface and a robust back-end API architecture using FastAPI, React, Node.js, and Google Firebase.
+Boston College AI Safety Society                                                                
+President and Founder                                                                                         August 2024 - present
+* Established and led a new student organization dedicated to exploring AI alignment through comprehensive discussions and research on AI development, policy, and regulation.
+* Designed and implemented a custom curriculum for weekly seminars, covering topics ranging from high-level AI overviews to in-depth analysis of AI models, in collaboration with parallel organizations at Harvard and MIT.
+
+
+SKILLS
+________________
+
+
+Python • Java • C • JavaScript • Linux • Git • sklearn • Solr • Snowflake • Numpy • Pandas • PyTorch • TensorFlow • Excel
