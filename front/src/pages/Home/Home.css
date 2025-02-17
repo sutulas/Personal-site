@@ -1,0 +1,221 @@
+.home {
+  padding-top: 60px;
+}
+
+.hero-section {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, 
+    #1a365d 0%, /* Darker blue */
+    #2d3748 100%); /* Dark slate */
+  color: white;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, 
+    rgba(255,255,255,0.05) 25%, 
+    transparent 25%, 
+    transparent 50%, 
+    rgba(255,255,255,0.05) 50%, 
+    rgba(255,255,255,0.05) 75%, 
+    transparent 75%, 
+    transparent);
+  background-size: 100px 100px;
+  opacity: 0.1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  max-width: 800px;
+  padding: 2rem 0;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  opacity: 0.95;
+  color: white;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.85;
+  max-width: 600px;
+}
+
+.about-section {
+  padding: 5rem 0;
+  background-color: var(--background-light);
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: var(--text-dark);
+}
+
+.skills-section {
+  padding: 5rem 0;
+  background: white;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-category {
+  text-align: left;
+}
+
+.skill-category h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  background: var(--background-light);
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid var(--primary-color);
+}
+
+.interests-section {
+  padding: 5rem 0;
+  background-color: var(--background-light);
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.interest-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  text-align: left;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.interest-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+  border-color: var(--primary-color);
+}
+
+.interest-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.interest-card p {
+  color: var(--text-dark);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: var(--text-dark);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    var(--primary-color), 
+    var(--secondary-color));
+  border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+
+  section h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .skills-grid,
+  .interests-grid {
+    gap: 1.5rem;
+  }
+} 
