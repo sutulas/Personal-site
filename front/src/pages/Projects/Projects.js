@@ -3,7 +3,7 @@ import './Projects.css';
 import VideoModal from '../../components/VideoModal/VideoModal';
 // Import your video files
 //import decodablesVideo from '../../assets/videos/decodables-demo.mp4';
-// import spotifhaiVideo from '../../assets/videos/SpotifHAI.mp4';
+import spotifhaiVideo from '../../assets/Spotifhai.mp4';
 // import datavizVideo from '../../assets/videos/DataViz.mp4';
 
 const Projects = () => {
@@ -37,8 +37,8 @@ const Projects = () => {
         demo: {
             link: 'https://sutulas.github.io/Spotifhai/',
             github: 'https://github.com/sutulas/Spotifhai',
-            description: 'Contact for access, or use test credentials: username: sutulas@bc.edu, password: SpotifHAI1'
-            // video: spotifhaiVideo
+            description: 'Contact for access, or use test credentials: username: sutulas@bc.edu, password: SpotifHAI1',
+            video: spotifhaiVideo
         }
     },
     {
