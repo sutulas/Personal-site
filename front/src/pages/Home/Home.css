@@ -7,8 +7,8 @@
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, 
-    #1a365d 0%, /* Darker blue */
-    #2d3748 100%); /* Dark slate */
+    #1a1a1a 0%, 
+    #333333 100%);
   color: white;
   position: relative;
   overflow: hidden;
@@ -112,13 +112,13 @@
 }
 
 .skill-tag {
-  background: var(--background-light);
-  color: var(--primary-color);
+  background: #ffffff;
+  color: #333333;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 500;
-  border: 1px solid var(--primary-color);
+  border: 1px solid #333333;
 }
 
 .interests-section {
@@ -184,8 +184,8 @@ section h2::after {
   width: 100px;
   height: 3px;
   background: linear-gradient(90deg, 
-    var(--primary-color), 
-    var(--secondary-color));
+    #333333, 
+    #666666);
   border-radius: 3px;
 }
 

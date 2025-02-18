@@ -21,8 +21,8 @@
   width: 100px;
   height: 3px;
   background: linear-gradient(90deg, 
-    var(--primary-color), 
-    var(--secondary-color));
+    #333333, 
+    #666666);
   border-radius: 3px;
 }
 
@@ -91,13 +91,13 @@
 }
 
 .tech-tag {
-  background: var(--background-light);
-  color: var(--primary-color);
+  background: #f5f5f5;
+  color: #333333;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 500;
-  border: 1px solid var(--primary-color);
+  border: 1px solid #333333;
 }
 
 .achievements {
@@ -176,7 +176,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: var(--primary-color);
+  background: #333333;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -187,7 +187,7 @@
 }
 
 .download-resume:hover {
-  background: var(--secondary-color);
+  background: #666666;
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
