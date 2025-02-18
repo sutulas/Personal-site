@@ -15,9 +15,16 @@
   gap: 2rem;
   margin-bottom: 4rem;
   background: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: var(--box-shadow);
   overflow: hidden;
+  transition: var(--transition);
+}
+
+.project-showcase:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
 }
 
 .project-content {
@@ -53,11 +60,13 @@
 }
 
 .tech-tag {
-  background: #666666;
-  color: white;
-  padding: 0.25rem 0.75rem;
-  border-radius: 15px;
-  font-size: 0.9rem;
+  background: #f0f0f0;
+  color: var(--primary-color);
+  padding: 0.35rem 0.8rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  letter-spacing: 0.3px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .highlights {
@@ -110,14 +119,16 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background: #333333;
+  background: var(--primary-color);
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   font-weight: 500;
   transition: all 0.3s ease;
-  border: none;
   cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
 }
 
 .video-link {

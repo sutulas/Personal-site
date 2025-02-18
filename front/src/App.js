@@ -24,11 +24,16 @@ function App() {
         </main>
         <footer className="footer">
           <div className="container">
-            <p>Connect with me:</p>
-            <div className="social-links">
-              <a href="mailto:sutulas@bc.edu">Email</a>
-              <a href="https://github.com/sutulas" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://www.linkedin.com/in/seamus-sutula/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <div className="footer-content">
+              <div className="footer-left">
+                <p>Seamus Sutula</p>
+                <p className="copyright">© 2025 All rights reserved</p>
+              </div>
+              <div className="social-links">
+                <a href="mailto:sutulas@bc.edu">Email</a>
+                <a href="https://github.com/sutulas" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/seamus-sutula/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </div>
             </div>
           </div>
         </footer>
