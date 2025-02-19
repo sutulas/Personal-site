@@ -50,10 +50,6 @@ const Home = () => {
               <h3>Software Development</h3>
               <p>Building full-stack applications to solve real-world problems through projects like Decodables and SpotifHAI</p>
             </div>
-            <div className="interest-card">
-              <h3>Placeholder</h3>
-              <p>Placeholder</p>
-            </div>
           </div>
         </div>
       </section>
