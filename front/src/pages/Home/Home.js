@@ -9,7 +9,7 @@ const Home = () => {
         <div className="container">
           <div className="hero-content">
             <h1>Welcome to seamussutula.com!</h1>
-            <h2>Computer Science Student & AI Enthusiast</h2>
+            <h2>A website for Seamus Sutula</h2>
             <p className="hero-description">
               I'm a Senior at Boston College pursuing a B.S. in Computer Science with a minor in Philosophy. 
               My interests lie at the intersection of software development and responsible AI use.
