@@ -5,14 +5,15 @@ import resume from '../../assets/Resume_Seamus_Sutula.pdf';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Technical Co-Founder and Lead Engineer',
+      title: 'Founding Engineer',
       company: 'Decodables',
       period: 'October 2023 - present',
       description: 'A scalable platform offering personalized reading experiences for young low-level readers.',
       achievements: [
-        'Custom prompt-engineering pipeline',
+        'Custom prompt-engineering/ AI interaction pipeline',
         'Interactive front-end interface',
-        'Robust back-end API architecture'
+        'Robust back-end API architecture',
+        'React, Node.js, Firebase, OpenAI, FastAPI, JavaScript, Python, CSS, HTML'
       ]
     },
     {
@@ -45,7 +46,8 @@ const Experience = () => {
         achievements: [
           'Reduced query latency by up to 70%',
           'Developed production-ready solutions',
-          'Collaborated with senior management'
+          'Collaborated with senior management',
+          'Python, Solr, Snowflake, Apache DataSketches, Java, Maven'
         ]
     },
     {
@@ -56,7 +58,8 @@ const Experience = () => {
       achievements: [
         'Developed efficient data retrieval systems',
         'Implemented seamless frontend communication',
-        'Rapidly acquired new technical skills'
+        'Rapidly acquired new technical skills',
+        'JavaScript, Node.js, Firebase'
       ]
     }  
   ];

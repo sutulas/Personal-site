@@ -15,7 +15,7 @@ const Projects = () => {
       description: 'A scalable platform offering personalized reading experiences for young low-level readers.',
       technologies: ['Python', 'FastAPI', 'React', 'Node.js', 'Firebase', 'LLMs', 'API Development', 'Project Management'],
       highlights: [
-        'Custom prompt-engineering pipeline',
+        'Custom prompt-engineering/ AI interaction pipeline',
         'Interactive front-end interface',
         'Robust back-end API architecture'
       ],
@@ -30,8 +30,8 @@ const Projects = () => {
         description: 'An intelligent Spotify playlist generator using LLMs.',
         technologies: ['Python', 'FastAPI', 'React', 'Node.js', 'Prompt Engineering', 'API Development', 'Teamwork'],
         highlights: [
-          'Custom prompt-engineering pipeline',
-          'Interactive front-end interface',
+          'Custom tool-calling/prompt-engineering pipeline',
+          'Interactive and fun front-end interface',
           'Robust back-end API architecture'
         ],
         demo: {
@@ -46,9 +46,8 @@ const Projects = () => {
         description: 'A custom GPT2 model trained on my personal writing.',
         technologies: ['Python', 'Fine-tuning', 'LLMs', 'Prompt Engineering'],
         highlights: [
-          'Custom prompt-engineering pipeline',
-          'Interactive front-end interface',
-          'Robust back-end API architecture'
+          'Cutting-edge fine-tuning techniques',
+          'Personalized data optimization'
         ]
     },
     {
@@ -57,8 +56,7 @@ const Projects = () => {
         technologies: ['Python', 'FastAPI', 'React', 'Node.js', 'Prompt Engineering', 'API Development', 'Teamwork'],
         highlights: [
           'Custom prompt-engineering pipeline',
-          'Interactive front-end interface',
-          'Robust back-end API architecture'
+          'Interactive front-end interface'
         ],
         demo: {
             link: 'https://sutulas.github.io/HAI-Assignment-3/',
